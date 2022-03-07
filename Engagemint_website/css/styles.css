@@ -1,0 +1,106 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 5.625rem; /* 100% font-size is 16px which is equal to 1em so 90 px is 562.5*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #146356;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #146356;
+  padding-bottom: 10px;
+  margin: auto;
+}
+h3{
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  line-height: 2;
+}
+hr {
+  border: dotted #B4FE98 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.background-image{
+  width:100%;
+  position: relative;
+}
+.welcome-text{
+  position: absolute center;
+  bottom: 750px;
+}
+.top-container {
+  position: relative;
+}
+.middle-container {
+  margin: 100px 0 20px;
+}
+
+.bottom-container {
+  background-color: #CFF6CF;
+  padding: 10px 0;
+}
+
+.quote-row-whatis {
+  width: 80%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+}
+
+.quote-row-mission {
+  width: 80%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+}
+
+.contact-us {
+  width: 40%;
+  margin: 40px auto 20px;
+}
+.not {
+  text-decoration: underline;
+}
+.intro {
+  width: 30%;
+}
+.inquote-link{
+  color: #52734D
+}
+.footer-link {
+  padding-top: 10px;
+  color: #11999E;
+}
+.title-link{
+  color: #146356;
+}
+.copyright {
+  color: #146356;
+}
+
+.blockquote-whatis{
+  background: #f9f9f9;
+  border-left: 3px solid #009c24;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+.blockquote-mission{
+  background: #f9f9f9;
+  border-right: 3px solid #009c24;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
