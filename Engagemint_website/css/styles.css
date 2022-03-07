@@ -39,15 +39,19 @@ hr {
   width:100%;
   position: relative;
 }
-.welcome-text{
-  position: absolute center;
-  bottom: 750px;
+
+.blockquote-left{
+  background: #f9f9f9;
+  border-left: 3px solid #009c24;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
 }
-.top-container {
-  position: relative;
-}
-.middle-container {
-  margin: 100px 0 20px;
+
+.blockquote-right{
+  background: #f9f9f9;
+  border-right: 3px solid #009c24;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
 }
 
 .bottom-container {
@@ -55,52 +59,52 @@ hr {
   padding: 10px 0;
 }
 
-.quote-row-whatis {
-  width: 80%;
-  margin: 100px auto 100px auto;
-  text-align: center;
-}
-
-.quote-row-mission {
-  width: 80%;
-  margin: 100px auto 100px auto;
-  text-align: center;
-}
-
 .contact-us {
   width: 40%;
   margin: 40px auto 20px;
 }
-.not {
-  text-decoration: underline;
-}
-.intro {
-  width: 30%;
-}
-.inquote-link{
-  color: #52734D
-}
-.footer-link {
-  padding-top: 10px;
-  color: #11999E;
-}
-.title-link{
-  color: #146356;
-}
+
 .copyright {
   color: #146356;
 }
 
-.blockquote-whatis{
-  background: #f9f9f9;
-  border-left: 3px solid #009c24;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
+.footer-link {
+  padding-top: 10px;
+  color: #11999E;
 }
 
-.blockquote-mission{
-  background: #f9f9f9;
-  border-right: 3px solid #009c24;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
+.intro {
+  width: 30%;
 }
+
+.inquote-link{
+  color: #52734D
+}
+
+.middle-container {
+  margin: 100px 0 20px;
+}
+
+.not {
+  text-decoration: underline;
+}
+
+.quote-row {
+  width: 80%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+}
+
+.title-link{
+  color: #146356;
+}
+
+.top-container {
+  position: relative;
+}
+
+.welcome-text{
+  position: absolute center;
+  bottom: 750px;
+}
+
