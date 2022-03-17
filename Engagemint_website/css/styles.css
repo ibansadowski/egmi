@@ -1,52 +1,83 @@
 body {
-  color: #40514E;
+  color: #40514e;
   margin: 0;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
 h1 {
   font-size: 5.625rem; /* 100% font-size is 16px which is equal to 1em so 90 px is 562.5*/
-  font-family: 'Sacramento', cursive;
+  font-family: "Montserrat", sans-serif;
   color: #146356;
 }
 
-h2{
-  font-family: 'Montserrat', sans-serif;
+h2 {
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
   color: #146356;
   padding-bottom: 10px;
   margin: auto;
 }
-h3{
+h3 {
   font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 p {
   line-height: 2;
 }
 hr {
-  border: dotted #B4FE98 6px;
+  border: dotted #b4fe98 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
 }
-
-.background-image{
-  width:100%;
-  position: relative;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
 }
 
-.blockquote-left{
+ul,
+li {
+  /* reset the margin and padding */
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  background: url("../images/solarpunk.jpeg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.background-shader {
+  z-index: -1;
+  position: absolute;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+  height: 100vh;
+  width: 100%;
+}
+
+.blockquote-left {
   background: #f9f9f9;
   border-left: 3px solid #009c24;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
 }
 
-.blockquote-right{
+.blockquote-right {
   background: #f9f9f9;
   border-right: 3px solid #009c24;
   margin: 1.5em 10px;
@@ -54,7 +85,7 @@ hr {
 }
 
 .bottom-container {
-  background-color: #CFF6CF;
+  background-color: #cff6cf;
   padding: 10px 0;
 }
 
@@ -66,25 +97,47 @@ hr {
 .copyright {
   color: #146356;
 }
-.Egmi{
-
-}
 
 .footer-link {
   padding-top: 10px;
-  color: #11999E;
+  color: #11999e;
 }
 
 .intro {
   width: 30%;
 }
 
-.inquote-link{
-  color: #52734D
+.inquote-link {
+  color: #52734d;
+}
+
+.logo {
+  font-family: "Nanum Myeongjo", serif;
+  color: white;
+  margin: 1em;
 }
 
 .middle-container {
   margin: 100px 0 20px;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 1em;
 }
 
 .not {
@@ -97,13 +150,26 @@ hr {
   text-align: center;
 }
 
-.title-link{
+.title-link {
   color: #146356;
 }
 
 .top-container {
+  height: 100vh;
   position: relative;
 }
 
-.welcome-text{
+.title-container {
+  text-align: end;
+  color: white;
+  position: absolute;
+  right: 5em;
+  bottom: 5em;
+}
+
+.title-container h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 4em;
+  color: white;
+  margin-bottom: 0em;
 }
